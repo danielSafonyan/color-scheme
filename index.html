@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Scheme Picker</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" type="module" defer=""></script>
+</head>
+<body>
+    <div id="root">
+            <form class="header" id="form">
+                <input name="seed-color" type="color">
+                <select name="mode" id="mode"></select>
+                <input type="number" value="6" min="1" max="6" >
+                <button>Get Color Scheme</button>
+            </form>
+        <main id="main">
+            <div class="color" style="background-color: red"><div class="color-code">#F55A5A</div></div>
+            <div class="color" style="background-color: blue"><div class="color-code">#F55A5A</div></div>
+            <div class="color" style="background-color: pink"><div class="color-code">#F55A5A</div></div>
+            <div class="color" style="background-color: red"><div class="color-code">#F55A5A</div></div>
+            <div class="color" style="background-color: blue"><div class="color-code">#F55A5A</div></div>
+            <div class="color" style="background-color: pink"><div class="color-code">#F55A5A</div></div>
+        </main>
+    </div>
+</body>
+</html>
